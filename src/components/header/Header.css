@@ -1,0 +1,92 @@
+.header {
+  border: solid 3px #606e85;
+  border-radius: 20px;
+  width: 50%;
+  margin: 2% auto 0;
+  padding: 1% 2%;
+}
+
+.header-image, .score {
+  display: inline-block
+}
+
+.score {
+  background-color: white;
+  border-radius: 10px;
+  float: right;
+  text-align: center;
+  width: 15%;
+  padding-top: 2%;
+}
+
+.score-text {
+  font-size: 15px;
+  color: #2a46c0;
+  letter-spacing: 1.25px;
+  font-weight: 700;
+}
+
+.score-number {
+  font-size: 50px;
+  color: #3b4363;
+  font-weight: 700;
+  margin-top: -8px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .header {
+    width: 90%;
+    margin: 10% auto 0;
+    border-radius: 10px;
+    padding: 5% 5%;
+  }
+
+  .header-image {
+    width: 35%;
+  }
+
+  .score {
+    width: 33%;
+    padding-top: 3%;
+    margin-top: -10px;
+  }
+
+  .score-number {
+    margin-top: -15px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .header {
+    width: 80%;
+    margin: 5% auto 0;
+    padding: 2% 3%;
+  }
+  .score {
+    width: 20%;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) and (orientation: landscape) {
+  .header {
+    margin: 2% auto 0;
+  }
+  .header-image {
+    width: 15%;
+  }
+  .score {
+    margin-top: -10px;
+    width: 17%;
+  }
+  .score-number {
+    font-size: 30px;
+    margin-top: -6px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .header {
+    width: 70%;
+    padding: 2% 2%;
+  }
+}

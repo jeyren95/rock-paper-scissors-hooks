@@ -1,0 +1,170 @@
+.start-game {
+  text-align: center;
+  padding: 5% 0 2%;
+  color: white;
+}
+
+.row h1 {
+  margin-bottom: 5%;
+}
+
+.selected-choice {
+  border: solid 50px;
+  border-radius: 50%;
+  background-color: white;
+  padding: 10% 0;
+  width: 50%;
+  margin: auto;
+}
+
+.selected-choice img {
+  width: 150px;
+  height: 150px;
+}
+
+.selected-scissors {
+  border-color: #ec9e0e !important;
+}
+
+.selected-rock {
+  border-color: #dc2e4e !important;
+}
+
+.selected-paper {
+  border-color: #4865f4 !important;
+}
+
+.results {
+  position: absolute;
+  top: 55%;
+  left: 42%;
+}
+
+.results h1 {
+  font-size: 70px;
+  margin-bottom: 8%;
+}
+
+.play-again button {
+  width: 280px;
+  height: 50px;
+}
+
+.play-again button:hover {
+  color: #dc2e4e !important;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .start-game {
+    padding: 10% 5% 55%;
+  }
+  .row h1 {
+    font-size: 20px;
+    margin-bottom: 12%;
+  }
+  .selected-choice {
+    border: solid 20px;
+    padding: 20% 0;
+    width: 100%;
+  }
+  .selected-choice img {
+    width: 70px;
+    height: 70px;
+  }
+  .results {
+    top: 60%;
+    left: 15%;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .start-game {
+    padding: 8% 0 32%;
+  }
+  .row h1 {
+    margin-bottom: 8%;
+  }
+  .selected-choice {
+    border: solid 30px;
+    width: 70%;
+    padding: 15% 0;
+  }
+  .selected-choice img {
+    width: 80px;
+    height: 80px
+  }
+  .results {
+    top: 58%;
+    left: 32%;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) and (orientation: landscape) {
+  .start-game {
+    padding: 3% 0 4%;
+  }
+  .row h1 {
+    font-size: 30px;
+    margin-bottom: 5%;
+  }
+  .selected-choice {
+    border: solid 20px;
+    width: 50%;
+    padding: 10% 0;
+  }
+  .selected-choice img {
+    width: 50px;
+    height: 50px;
+  }
+  .results {
+    top: 50%;
+    left: 39%;
+  }
+  .results h1 {
+    font-size: 40px;
+  }
+  .play-again button {
+    width: 160px;
+    height: 40px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .start-game {
+    padding: 5% 0 7%;
+  }
+  .selected-choice {
+    border: solid 30px;
+    width: 50%;
+  }
+  .selected-choice img {
+    width: 90px;
+    height: 90px;
+  }
+  .results {
+    top: 45%;
+    left: 38%;
+  }
+  .results h1 {
+    font-size: 60px;
+  }
+  .play-again button {
+    width: 240px;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+  .start-game {
+    padding: 5% 0 5%;
+  }
+  .selected-choice {
+    width: 60%;
+  }
+  .results {
+    top: 45%;
+    left: 40%;
+  }
+  .results h1 {
+    font-size: 65px;
+  }
+}

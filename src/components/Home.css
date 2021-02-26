@@ -1,0 +1,174 @@
+body {
+  background-image: radial-gradient(#1f3756, #141539);
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.home {
+  text-align: center;
+  padding: 10% 0 10%;
+}
+
+.choice {
+  border: solid 40px;
+  border-radius: 50%;
+  padding: 3% 3%;
+  background-color: white;
+}
+
+.choice img {
+  width: 100px;
+  height: 100px;
+}
+
+.scissors {
+  border-color: #ec9e0e !important;
+  position: absolute;
+  top: 22%;
+  right: 31%;
+}
+
+.rock {
+  border-color: #dc2e4e !important;
+  position: absolute;
+  top: 55%;
+  left: 42%;
+}
+
+.paper {
+  border-color:  #4865f4 !important;
+  position: absolute;
+  top: 22%;
+  left: 31%;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .home {
+    padding: 10% 0 35%;
+  }
+  .background-triangle img {
+    width: 50%;
+    margin-top: 30%;
+  }
+  .choice {
+    border: solid 20px;
+    padding: 7% 7%;
+  }
+  .choice img {
+    width: 70px;
+    height: 70px;
+  }
+  .scissors {
+    top: 30%;
+    right: 5%;
+  }
+  .paper {
+    top: 30%;
+    left: 5%;
+  }
+  .rock {
+    top: 60%;
+    left: 30%;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .home {
+    padding: 10% 0 20%;
+  }
+  .background-triangle img {
+    margin-top: 10%;
+  }
+  .choice {
+    border: solid 30px;
+    padding: 5% 5%;
+  }
+  .choice img {
+    width: 80px;
+    height: 80px;
+  }
+  .scissors {
+    top: 22%;
+    right: 17%;
+  }
+  .paper {
+    top: 22%;
+    left: 17%;
+  }
+  .rock {
+    top: 48%;
+    left: 35%;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) and (orientation: landscape) {
+  .home {
+    padding: 0 0;
+  }
+  .background-triangle img {
+    width: 30%;
+  }
+  .choice {
+    border: solid 20px;
+    padding: 3% 3%;
+  }
+  .choice img {
+    width: 50px;
+    height: 50px;
+  }
+  .scissors {
+    top: 27%;
+    right: 27%;
+  }
+  .paper {
+    top: 27%;
+    left: 27%;
+  }
+  .rock {
+    top: 65%;
+    left: 40%;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .home {
+    padding: 15% 0 10%;
+  }
+  .choice {
+    border: solid 30px;
+    padding: 4% 4%;
+  }
+  .choice img {
+    width: 90px;
+    height: 90px;
+  }
+  .scissors {
+    top: 25%;
+    right: 22%;
+  }
+  .paper {
+    top: 25%;
+    left: 22%;
+  }
+  .rock {
+    top: 60%;
+    left: 37%;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+  .home {
+    padding: 15% 0 15%;
+  }
+  .scissors {
+    top: 23%;
+    right: 28%;
+  }
+  .paper {
+    top: 23%;
+    left: 28%;
+  }
+  .rock {
+    top: 54%;
+    left: 41%;
+  }
+}

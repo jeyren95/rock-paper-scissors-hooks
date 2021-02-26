@@ -1,0 +1,68 @@
+.rules {
+  text-align: center;
+}
+
+.rules button {
+  float: right;
+  position: relative;
+  right: 10%;
+  width: 8%;
+}
+
+.modal-header {
+  border-bottom: none;
+  padding-top: 5%;
+}
+
+
+.modal-header h1 {
+  color: #3b4363;
+  font-weight: 700;
+  margin-left: 5%;
+}
+
+.modal-header .btn-close {
+  margin-right: 5%;
+}
+
+.modal-body {
+  padding-bottom: 8%;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .rules button {
+    float: none;
+    right: 0;
+    width: 35%;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .rules button {
+    float: none;
+    right: 0;
+    width: 20%;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) and (orientation: landscape) {
+  .rules button {
+    float: right;
+    position: relative;
+    right: 10%;
+    width: 20%;
+    bottom: 10px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .rules button {
+    width: 15%;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+  .rules button {
+    width: 12%;
+  }
+}
